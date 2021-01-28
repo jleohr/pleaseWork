@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
        //Config the Model
        var newResource = {
            techFirstName: document.getElementById("firstName").value, //Put the tech first name here
-           techLastName: document.getElementById("lastName").value, //Put the tech last name here
+           techLastName: document.getElementById("lastName").value //Put the tech last name here
        };
 
     resourceRef.push(newResource);

@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     resourceRef.push(newResource);
     
     */
-		window.location = "success.html"
+		window.location = "success.html";
 /*
    }  );
 

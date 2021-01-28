@@ -1,5 +1,4 @@
-/*
-// Initialize Firebase
+
  // Initialize Firebase
  let config = {
    apiKey: "AIzaSyDDSWMqf6-V57huLpw37qVLSdJdM14_ZXc",
@@ -18,13 +17,12 @@ firebase.initializeApp(config);
 let database = firebase.database();
 
 //Reference the items branch of your database
-let resourceRef = firebase.database();
+//let resourceRef = firebase.database();
 
 function updateFirebase() {
 };
 
 //Create a function that will run when the Website is finished loading as well as create a function when the button is clicked.
-
 document.addEventListener('DOMContentLoaded', function() {
    document.getElementById("save").addEventListener('click',function ()
    {
@@ -37,12 +35,10 @@ document.addEventListener('DOMContentLoaded', function() {
            techLastName: document.getElementById("lastName").value //Put the tech last name here
        };
 
-    resourceRef.push(newResource);
-    
-    */
-		window.location = "success.html";
-/*
+       database.push(newResource);
+       window.location = "success.html";
+
    }  );
 
 });
-*/
+

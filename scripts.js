@@ -1,4 +1,4 @@
-
+/*
 // Initialize Firebase
  // Initialize Firebase
  let config = {
@@ -38,9 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
        };
 
     resourceRef.push(newResource);
+    
+    */
 		window.location = "success.html"
-
+/*
    }  );
 
 });
-
+*/

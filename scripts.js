@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
    document.getElementById("save").addEventListener('click',function ()
    {
 
-       console.log("it worked!")
+       window.alert("it worked!");
 
        //Config the Model
        var newResource = {
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
            techLastName: document.getElementById("lastName").value //Put the tech last name here
        };
 
-       database.push(newResource);
+       resourceRef.push(newResource);
        window.location = "success.html";
 
    }  );

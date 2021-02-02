@@ -1,15 +1,6 @@
 window.alert("Hello!");
- 
-firebase.initializeApp(config);
 
-//Reference to the database
-let database = firebase.database();
-
-//Reference the items branch of your database
-let resourceRef = firebase.database().ref("Things");
-
-function updateFirebase() {
-};
+var resourceRef = firebase.database().ref("Things");
 
 //Create a function that will run when the Website is finished loading as well as create a function when the button is clicked.
 document.addEventListener('DOMContentLoaded', function() {

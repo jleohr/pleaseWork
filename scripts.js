@@ -1,9 +1,7 @@
 var resourceRef = firebase.database().ref("Things");
 
 //Create a function that will run when the Website is finished loading as well as create a function when the button is clicked.
-document.addEventListener('DOMContentLoaded', function() {
-   document.getElementById("save").addEventListener('click',function ()
-   {
+function submitBtn(){
 
        window.alert("it worked!");
 
@@ -16,7 +14,4 @@ document.addEventListener('DOMContentLoaded', function() {
        resourceRef.push(newResource);
        window.location = "success.html";
 
-   }  );
-
-});
-
+}

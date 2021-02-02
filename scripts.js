@@ -1,15 +1,4 @@
-
- // Initialize Firebase
- let config = {
-   apiKey: "AIzaSyDDSWMqf6-V57huLpw37qVLSdJdM14_ZXc",
-   authDomain: "pleasework-4e932.firebaseapp.com",
-   databaseURL: "https://pleasework-4e932-default-rtdb.firebaseio.com",
-   projectId: "pleasework-4e932",
-   storageBucket: "pleasework-4e932.appspot.com",
-   messagingSenderId: "778216765467",
-   appId: "1:778216765467:web:2f8295dee7168a12b4a0be",
-   measurementId: "G-628JPPX8JQ"
- };
+window.alert("Hello!");
  
 firebase.initializeApp(config);
 

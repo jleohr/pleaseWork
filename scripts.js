@@ -17,7 +17,7 @@ firebase.initializeApp(config);
 let database = firebase.database();
 
 //Reference the items branch of your database
-//let resourceRef = firebase.database();
+let resourceRef = firebase.database().ref("Things");
 
 function updateFirebase() {
 };
